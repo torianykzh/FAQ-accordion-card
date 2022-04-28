@@ -1,0 +1,15 @@
+{
+  "name": "faq-accordion-card-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the FAQ accordion card coding challenge](./design/desktop-preview.jpg)",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.5.0"
+  }
+}
