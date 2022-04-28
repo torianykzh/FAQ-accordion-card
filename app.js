@@ -5,3 +5,11 @@ faq.forEach(element => {
         element.classList.toggle('active')
     })
 });
+
+const link = document.querySelectorAll("a")
+
+link.forEach(el =>{
+    el.addEventListener('click', (event)=>{
+        event.stopPropagation();
+    })
+})
